@@ -1,0 +1,20 @@
+{
+  "CENTER_YOUR_FACE": "顔を中央に合わせてください",
+  "ERR_CAMERA_PERMISSION_DENIED": "測定を行うにはカメラへのアクセスが必要です。カメラの許可を与えて、もう一度お試しください。",
+  "ERR_PROFILE_INFO_NOT_SET": "測定を開始する前にプロフィール情報が必要です。プロフィール設定を完了してください。",
+  "ERR_WORKER_ERROR": "測定処理中に技術的なエラーが発生しました。もう一度お試しいただくか、問題が解決しない場合はサポートにお問い合わせください。",
+  "FACE_NOT_DETECTED": "顔が検出されません",
+  "HOLD_STILL": "動かないでください",
+  "LOOK_DOWN": "下を見てください",
+  "LOOK_UP": "上を見てください",
+  "MOVE_BACK": "後ろに下がってください",
+  "MOVE_CLOSER": "もう少し近づいてください",
+  "NO_DEVICES_FOUND": "利用可能なカメラデバイスが見つかりません",
+  "PLEASE_WAIT": "お待ちください、測定がまもなく開始されます…",
+  "SELECT_CAMERA": "カメラを選択して開始",
+  "TILT_YOUR_FACE_LEFT": "顔を左に傾けてください",
+  "TILT_YOUR_FACE_RIGHT": "顔を右に傾けてください",
+  "TURN_LEFT": "左を向いてください",
+  "TURN_RIGHT": "右を向いてください",
+  "WAITING_FOR_RESULTS": "結果が出るまで待機しています"
+}

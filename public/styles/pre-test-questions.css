@@ -1,0 +1,28 @@
+.pre-test-questions-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  padding: 0px 32px;
+}
+
+.date-picker-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  .pre-test-questions-holder {
+    align-items: center;
+    border-radius: 16px;
+    width: 416px;
+    padding: 32px;
+    min-height: 450px;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 0px 0px 30px 0px #0000000d;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "CENTER_YOUR_FACE": "请将脸部置于中央",
+  "ERR_CAMERA_PERMISSION_DENIED": "需要摄像头访问权限才能进行测量。请授予摄像头权限并重试。",
+  "ERR_PROFILE_INFO_NOT_SET": "开始测量前需要个人资料信息。请完成您的个人资料设置。",
+  "ERR_WORKER_ERROR": "测量处理过程中发生技术错误。请重试,如果问题仍然存在,请联系支持人员。",
+  "FACE_NOT_DETECTED": "未检测到面部",
+  "HOLD_STILL": "请保持静止",
+  "LOOK_DOWN": "向下看",
+  "LOOK_UP": "向上看",
+  "MOVE_BACK": "请后退",
+  "MOVE_CLOSER": "请靠近一些",
+  "NO_DEVICES_FOUND": "未找到可用的摄像头设备",
+  "PLEASE_WAIT": "请稍候,测量将很快开始。。。",
+  "SELECT_CAMERA": "选择摄像头",
+  "TILT_YOUR_FACE_LEFT": "请将脸部向左倾斜",
+  "TILT_YOUR_FACE_RIGHT": "请将脸部向右倾斜",
+  "TURN_LEFT": "向左转头",
+  "TURN_RIGHT": "向右转头",
+  "WAITING_FOR_RESULTS": "等待结果"
+}

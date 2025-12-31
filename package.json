@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "copy-wmea": "node scripts/copy-wmea-nextjs.js",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@nuralogix.ai/dfx-api-client": "^1.0.73",
+    "@nuralogix.ai/web-measurement-embedded-app": "0.1.0-beta.7",
+    "@nuralogix.ai/web-ui": "0.1.0-alpha.13",
+    "@reduxjs/toolkit": "^2.11.2",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-query": "^3.39.3",
+    "react-redux": "^9.2.0",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

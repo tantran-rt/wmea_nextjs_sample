@@ -1,0 +1,20 @@
+{
+  "CENTER_YOUR_FACE": "Centrez votre visage",
+  "ERR_CAMERA_PERMISSION_DENIED": "L'accès à la caméra est requis pour effectuer des mesures. Veuillez accorder l'autorisation de la caméra et réessayer.",
+  "ERR_PROFILE_INFO_NOT_SET": "Les informations de profil sont requises avant de commencer une mesure. Veuillez compléter la configuration de votre profil.",
+  "ERR_WORKER_ERROR": "Une erreur technique s'est produite pendant le traitement de la mesure. Veuillez réessayer ou contacter le support si le problème persiste.",
+  "FACE_NOT_DETECTED": "Visage non détecté",
+  "HOLD_STILL": "Ne bougez pas",
+  "LOOK_DOWN": "Baissez les yeux",
+  "LOOK_UP": "Levez les yeux",
+  "MOVE_BACK": "Reculez",
+  "MOVE_CLOSER": "Rapprochez-vous",
+  "NO_DEVICES_FOUND": "Aucun appareil détecté",
+  "PLEASE_WAIT": "Veuillez patienter, la mesure va bientôt commencer…",
+  "SELECT_CAMERA": "Sélectionner une caméra pour commencer",
+  "TILT_YOUR_FACE_LEFT": "Inclinez votre visage vers la gauche",
+  "TILT_YOUR_FACE_RIGHT": "Inclinez votre visage vers la droite",
+  "TURN_LEFT": "Tournez la tête à gauche",
+  "TURN_RIGHT": "Tournez la tête à droite",
+  "WAITING_FOR_RESULTS": "Dans l'attente des résultats"
+}

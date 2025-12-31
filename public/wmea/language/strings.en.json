@@ -1,0 +1,20 @@
+{
+  "CENTER_YOUR_FACE": "Center your face",
+  "ERR_CAMERA_PERMISSION_DENIED": "Camera access is required to take measurements. Please grant camera permission and try again.",
+  "ERR_PROFILE_INFO_NOT_SET": "Profile information is required before starting a measurement. Please complete your profile setup.",
+  "ERR_WORKER_ERROR": "A technical error occurred during measurement processing. Please try again or contact support if the issue persists.",
+  "FACE_NOT_DETECTED": "Face not detected",
+  "HOLD_STILL": "Hold still",
+  "LOOK_DOWN": "Look down",
+  "LOOK_UP": "Look up",
+  "MOVE_BACK": "Move back",
+  "MOVE_CLOSER": "Move closer",
+  "NO_DEVICES_FOUND": "No camera devices found",
+  "PLEASE_WAIT": "Please wait, measurement will start soon…",
+  "SELECT_CAMERA": "Select a camera to begin",
+  "TILT_YOUR_FACE_LEFT": "Tilt your face left",
+  "TILT_YOUR_FACE_RIGHT": "Tilt your face right",
+  "TURN_LEFT": "Turn left",
+  "TURN_RIGHT": "Turn right",
+  "WAITING_FOR_RESULTS": "Waiting for results"
+}

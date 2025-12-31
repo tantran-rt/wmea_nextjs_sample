@@ -1,0 +1,251 @@
+.desktop-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.auth-img {
+  display: flex;
+}
+
+.sign-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background: #f8f8f8;
+  position: relative;
+  /* margin-left: "-20px"; */
+}
+
+.sign-note {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.04px;
+}
+
+.sign-desc-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sign-desc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sign-items-wrap {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.signBg-with-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+  height: 25%;
+  width: 100%;
+  background: #009cf9;
+  padding: 10px;
+}
+
+.signBg-with {
+  width: 100%;
+  height: 300px;
+  background: #009cf9;
+}
+
+.wrap-signature {
+  border-radius: 0px 0px 16px 6px;
+  width: 100%;
+  border: 3px solid #009cf9;
+  height: 73%;
+}
+
+.sign-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.overLay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  /* bottom: 0%; */
+  z-index: 1000;
+}
+
+.prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  height: 200px;
+  border-radius: 24px;
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  background: #ffffff;
+}
+
+.prompt-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  height: 70%;
+  width: 100%;
+  border-radius: 24px 24px 0px 0px;
+  gap: 20px;
+  text-align: left;
+}
+
+.prompt-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  height: 30%;
+  width: 100%;
+  gap: 20px;
+}
+
+.prompt-cancel-btn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4e555d;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid #aab5c2;
+}
+
+.prompt-yes-btn {
+  width: 96px;
+  height: 35px;
+  padding: 8px 20px 8px 20px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #77777780;
+  cursor: pointer;
+  color: #4e555d;
+}
+
+@media screen and (min-width: 650px) {
+  .wrap-login-img {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 18px;
+    width: 50%;
+    height: 100vh;
+  }
+  .auth-img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .signBg-with-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+    padding: 0px 40px;
+    overflow-y: auto;
+    max-height: 100vh;
+    gap: 60px;
+  }
+
+  .wrap-signature {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f7f8;
+    overflow: hidden;
+    border-radius: 0px 0px 16px 6px;
+    border: 3px solid #009cf9;
+  }
+
+  .signBg-with {
+    display: none;
+    height: 180px;
+  }
+
+  .sign-items-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    color: #4e555d;
+  }
+
+  .signBg-with {
+    display: none;
+    height: 180px;
+  }
+  .sign-text {
+    margin-bottom: 20%;
+  }
+
+  .overLay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    bottom: 0%;
+    z-index: 1000;
+  }
+
+  .prompt {
+    width: 550px;
+    height: 208px;
+    border-radius: 16px;
+  }
+
+  .prompt-btn {
+    justify-content: center;
+  }
+
+  .prompt-cancel-btn {
+    width: 45%;
+    border: 1px solid #aab5c2;
+    border-radius: 8px;
+    height: 35px;
+  }
+
+  .prompt-yes-btn {
+    width: 45%;
+    background-color: #009cf9;
+    color: #ffffff;
+  }
+}

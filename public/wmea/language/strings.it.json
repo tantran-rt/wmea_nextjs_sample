@@ -1,0 +1,20 @@
+{
+  "CENTER_YOUR_FACE": "Centra il viso",
+  "ERR_CAMERA_PERMISSION_DENIED": "È richiesto l'accesso alla fotocamera per effettuare le misurazioni. Si prega di concedere l'autorizzazione della fotocamera e riprovare.",
+  "ERR_PROFILE_INFO_NOT_SET": "Le informazioni del profilo sono necessarie prima di iniziare una misurazione. Si prega di completare la configurazione del profilo.",
+  "ERR_WORKER_ERROR": "Si è verificato un errore tecnico durante l'elaborazione della misurazione. Si prega di riprovare o contattare l'assistenza se il problema persiste.",
+  "FACE_NOT_DETECTED": "Volto non rilevato",
+  "HOLD_STILL": "Resta fermo",
+  "LOOK_DOWN": "Guarda in basso",
+  "LOOK_UP": "Guarda in alto",
+  "MOVE_BACK": "Fai un passo indietro",
+  "MOVE_CLOSER": "Avvicinati",
+  "NO_DEVICES_FOUND": "Nessuna fotocamera trovata",
+  "PLEASE_WAIT": "Per favore, aspetta, la misurazione inizierà presto…",
+  "SELECT_CAMERA": "Selezionare una fotocamera per iniziare",
+  "TILT_YOUR_FACE_LEFT": "Inclina il viso a sinistra",
+  "TILT_YOUR_FACE_RIGHT": "Inclina il viso a destra",
+  "TURN_LEFT": "Gira a sinistra",
+  "TURN_RIGHT": "Gira a destra",
+  "WAITING_FOR_RESULTS": "In attesa dei risultati"
+}

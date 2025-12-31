@@ -1,0 +1,142 @@
+.wrap-check {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.wrap-desktop-switch {
+    display: none;
+}
+
+.view-switch-wrap_ {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    background: #ffffff;
+    height: 56px;
+    padding: 6px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-grid-list-view {
+    width: 48%;
+    height: 44px;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #4e555d;
+    border: none;
+}
+
+.grid-active {
+    color: #ffffff;
+    background-color: #009cf9;
+}
+.wrap-check p {
+    font-size: 12px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.list-view {
+    color: #959595;
+}
+
+.grid-view {
+    color: rgba(0, 156, 249, 1);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 34px;
+    border: none;
+    cursor: pointer;
+}
+
+.switchOn {
+    background-color: #2196f3;
+}
+
+.switchOff {
+    background-color: #ccc;
+}
+
+.slider {
+    position: absolute;
+    content: '';
+    height: 18px;
+    width: 18px;
+    left: 1px;
+    bottom: 1px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.switchOn .slider {
+    transform: translateX(18px);
+}
+
+.switchOff .slider {
+    transform: translateX(0);
+}
+
+.btn-desktop-switch {
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 5px;
+}
+
+.desktop-switch-btn-wrap {
+    display: flex;
+
+}
+
+.btn-desktop-img {
+    height: 36px;
+    width: 36px;
+}
+
+.desktop-scan-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.desktop-scan-icon:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #009cf9;
+}
+
+@media (min-width: 700px) {
+    .wrap-desktop-switch {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 24px;
+        background-color: #f4f7f8;
+        border-radius: 20px 20px 0px 0px;
+        border-bottom: 1px solid #4e555d0d;
+    }
+    .destop-switch-btn-wrap {
+        display: flex;
+        justify-content: space-evenly;
+        width: 15%;
+        padding: 16px;
+        background-color: #793b3b;
+    }
+    .desktop-scan-icon {
+        margin-right: 0px;
+    }
+}
