@@ -74,11 +74,9 @@ const Measurement = () => {
           appPath: `${window.location.origin}/wmea`,
           // apiUrl: 'api.na-east.deepaffex.ai',
           settings: {
-            token:
-              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJPcmdhbml6YXRpb25JRCI6ImNhZThmNzhlLTU5MDgtNDgyZS05MWQwLTNjOTkyMTlmOWFiNyIsIklEIjoiYjVkM2IwNzUtMzZhOS00MjBkLTg3NGQtZmNmMTVmNzkyM2IwIiwiVHlwZSI6IkRldmljZSIsIkRldmljZUlEIjoiYjVkM2IwNzUtMzZhOS00MjBkLTg3NGQtZmNmMTVmNzkyM2IwIiwiU2Vzc2lvbkdlbiI6MCwiUmVnaW9uIjoibmEtZWFzdCIsImV4cCI6MTc2NzEyMDI4NTY2NiwiaWF0IjoxNzY3MTE2Njg1NjY2LCJpc3MiOiJ1cm46ZGVlcGFmZmV4In0.C0Eq-lqOs48YVNBAoiq9rjxLx3qrqu7C--EBv2N1_5o",
-            refreshToken:
-              "U2FsdGVkX19xpKnw4ANeI+NhrLnq9XnpRFPgw23MByug8MJ3DlDiPc44/byVxjiptwTRzIBlbhGrA7ANV02P2GVOXUMsxGLhFzrBsk/NpXsjY03fOuBx48XLSrhGcpeYAMC+mqs44EPlzMgpTxdWGHDsA9PYdvnjEi+/bf0R+hbO/ex2DO2cS3uvZTPrUtgG/8sI2Ew9xT0Edwn8O+92PEuWN/0vaIU61ACzFKR+zQQjOhAWj1AYjkxnQDYsNLPqC2pQNsZJBp679FsewfOhvQq+kw9EGOigq+oCJYjWfGtSthsBwFfczaZno046r5r8adPdMJrbIWEUniDkDFTvXYNKoyptQgZTA8SP0QGm+4qeZUDJQnh+aIDxTyxrjifGf6hHfibczCU599jNzofwOXrewZ0fdzM9yST++3uPRM5zzTr8Ak/4tl31tZKEyoBEQMKJzdF3ikQheUW7g69sYG5qzr2JMb51ykQ6zksATOuv4iliDUAUGf5QWkXEq3gaQuKrbXj7b+a2lrd+jYwoLi/tzqYovP5iMlyr/fpfsE9AVi3YG6HbrnifmI1lkazuthxFPSZu6cFNRLhQDuik27SwGEUzwJXvmiw1chQrf2EEonNGmenNOXRK8G89QRZuQv3lFhDOM01bwk+T+xRezxyuUkMZnDWmLfuL5JbL5xNiKOeVejpqFopJMPZRPWe/X7FyMRu1swZQ43FeRxDKTmAt37x+cEXXMEt0JVakaps5eOkXOrncM2owNC0MvG+blhWzNy5vo85LUzGctnbgID9kwPgCm0tcTaHQUvxmzLKVP2Q3Tz38/F37b/xMm/hEdCN7lJU+ghzEIC3yrYa5I3OsAPj9un+t85XyZ3SjI+SBO1ZWFHkZm0pu/AG2TnAMEFHNWVHYhytfqThUlGe9HRP6tdMxvwFUA12UMEIqVoXOsvq1twTOIP66jq4f9RVUYRuJtOmpMFjntm4WFI8b7vnUnk38M/O/+i0n5QkdPlFwUnYp6Z049odXcsK4m96KeX3cQoOdX4yHm7cTkyJk0q+BrOyG387v/YXtKNHhYs5wbpA91P8Q73kT2lBptjEFTLxCeErKQPRS5oWdyFKhWJKzAMbm0BFrOHJKDtI6gDxlxGDgMGRJ2sJh1/yVrsJoDZGRgAZOg2gOLU+8//0qiw==",
-            studyId: "5f77f398-055c-4f46-9e4d-d3fb81381dd5",
+            token: tokenResponse.token,
+            refreshToken: tokenResponse.refreshToken,
+            studyId: studyIdResponse.studyId,
           },
           profile: demographics,
           config: {

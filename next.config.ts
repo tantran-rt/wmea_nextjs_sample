@@ -92,29 +92,6 @@ const nextConfig: NextConfig = {
           },
         ],
       },
-      // Specific headers for wmea static files
-      // {
-      //   source: "/wmea/:path*",
-      //   headers: [
-      //     {
-      //       key: "Cache-Control",
-      //       value: "public, max-age=31536000, immutable",
-      //     },
-      //     {
-      //       key: "Content-Type",
-      //       value: "application/javascript; charset=utf-8",
-      //     },
-      //     // Also ensure COOP/COEP are set on wmea files (redundant but safe)
-      //     {
-      //       key: "Cross-Origin-Opener-Policy",
-      //       value: "same-origin",
-      //     },
-      //     {
-      //       key: "Cross-Origin-Embedder-Policy",
-      //       value: "require-corp",
-      //     },
-      //   ],
-      // },
     ];
   },
 };
